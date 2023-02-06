@@ -1,0 +1,15 @@
+.section{
+    margin: 0px 0px 8%  0px;
+}
+
+.title{
+    margin-bottom: 2%;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+.content-about{
+    max-width: 60%;
+    margin-top: 0.5vw;
+    margin-left: 40px;
+}

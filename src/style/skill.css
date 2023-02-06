@@ -1,0 +1,20 @@
+
+.content-skill{
+    margin-top: 1vw;
+    margin-left: 40px;
+}
+.skill{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    margin-bottom: 20px;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(75px,95px));
+}
+
+
+span{
+    margin-bottom: 3px;
+}

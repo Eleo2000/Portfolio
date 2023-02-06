@@ -1,0 +1,159 @@
+/*debut opening evolutech*/
+
+.loaderXd .fondOpening{
+   
+    position: absolute;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    transform: scaleY(2) scaleX(2) translateX(-4%) rotate(10deg) ;
+}
+
+
+#l0{
+    fill: #060c1a;
+    transform-origin: center;
+    position: absolute;
+    /* animation: fondXdL0 0.75s ease-out 3s forwards; */
+    transform: scaleY(2) scaleX(2) rotate(10deg)  ;
+}
+#r0{
+    fill: #060c1a;
+    transform-origin: center;
+    position: absolute;
+    transform: scaleY(2) scaleX(2)  rotate(10deg) ;
+    /* animation: fondXdR0 0.75s ease-out 3s forwards; */
+}
+
+#l1{
+    transform-origin: center;
+    position: absolute;
+    /* animation: fondXdL0 0.75s ease-out 3.02s forwards; */
+    transform: scaleY(2) scaleX(2)   rotate(10deg);
+}
+
+#r1{
+    transform-origin: center;
+    position: absolute;
+    /* animation: fondXdR0 0.75s ease-out 3.02s forwards; */
+    transform: scaleY(2) scaleX(2)  rotate(10deg) ;
+    
+}
+
+@keyframes fondXdL0 {
+    100%{
+        transform: scaleY(2) scaleX(2) rotate(10deg)  translateX(-22%);
+    }
+}
+
+@keyframes fondXdR0 {
+    100%{
+        transform: scaleY(2) scaleX(2) rotate(10deg)  translateX(22%);
+    }
+}
+/* fin opening evolutech */
+
+
+/*****cube***/
+.loader{
+    position: absolute;
+    box-sizing: border-box;
+    display:grid;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    height: 100vh;
+    z-index: 99999;
+  
+}
+.mini-container{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    height: 60vh;
+    perspective: 1000px;
+    transform: scale(0.5);
+  }
+ @keyframes disap-cube {
+    
+    100%{
+        opacity: 0;
+    }
+ }
+
+
+  .mini-cube{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transform: rotateY(30deg);
+    animation: mini-cube3d 1.8s ease-in-out infinite  ;
+  }
+  
+  @keyframes mini-cube3d {
+    0%{
+      
+      transform: rotateX(-50deg) rotateY(-20deg) translateY(20px)  scale3d(0.97,0.97,0.97);
+    }
+  
+    25%{
+      transform: rotateX(-50deg) rotateY(70deg) translateY(38px)  scale3d(0.6,0.7,0.6) ; 
+    }
+    50%{
+      transform: rotateX(-50deg) rotateY(160deg) translateY(15px)  scale3d(0.7,0.8,0.7) ; 
+    }
+    75%{
+      transform: rotateX(-50deg) rotateY(250deg) translateY(45px)  scale3d(0.0.6,0.6,0.6) ; 
+    }
+    100%{
+      transform: rotateX(-50deg) rotateY(340deg) translateY(20px)  scale3d(0.97,0.97,0.97) ; 
+    }
+  }
+  
+  .mini-face{
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+   height: 150px;
+   width: 150px;
+   text-align: center ;
+   padding: 60px 0;
+   background:linear-gradient(45deg,#2c8ac9 ,#1758ad);
+   border:1px solid rgb(67, 150, 245);
+    position: absolute;
+    
+  }
+  
+  .mini-front{
+    
+    transform: translateZ(74px);
+  }
+  .mini-back{
+    transform: translateZ(-74px);
+  }
+  .mini-left{
+    right: 74px;
+    transform: rotateY(-90deg);
+  }
+  .mini-right{
+    left: 74px;
+    transform: rotateY(90deg);
+  }
+  .mini-top{
+    bottom: 74px;
+    transform: rotateX(90deg);
+  }
+  .mini-bottom{
+    top: 74px;
+    transform: rotateX(-90deg);
+  }
+  
+  /*fin cube 3d xD*/

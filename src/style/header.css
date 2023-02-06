@@ -1,0 +1,57 @@
+.Header{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.language{
+    justify-self: flex-end;
+    align-self: center;
+    margin-right: 20px;
+    
+}
+
+.language-def{
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 2px;
+    
+    background-color: rgba(255, 255, 255, 0.137);
+    transition: 0.15s ease-in-out;
+}
+
+.language-def:hover {
+    background-color: rgba(255, 255, 255, 0.199);
+}
+.logo-e{
+    cursor: pointer;
+   display: grid;
+   align-items: center;
+    
+}
+
+.el-top{
+    position: relative;
+}
+
+.custom-select{
+    
+    background-color: rgba(255, 255, 255, 0.123);
+    color: rgb(240, 240, 240);
+    padding: 5px;
+    /* width: 55px; */
+    border-radius: 3px;
+    right: 0;
+}
+
+.custom-select option{
+    background-color: rgb(53, 53, 53);
+}
+.custom-select option:hover{
+    background-color: rgba(255, 255, 255, 0.219)!important;
+}
+
+
+
