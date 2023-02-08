@@ -1,5 +1,6 @@
 import '../style/loading.css'
 import { useEffect } from "react"
+import Cubeloader from './mini-components/CubeLoader';
 
 const Loading = (props) => {
 
@@ -37,23 +38,14 @@ const Loading = (props) => {
         <>
         <div className="loaderXd">
 
-        <div className="loader">
-            <div className="mini-container">
-                <div className="mini-cube">
-                    <div className="mini-face mini-front"></div>
-                    <div className="mini-face mini-back"></div>
-                    <div className="mini-face mini-right"></div>
-                    <div className="mini-face mini-left"></div>
-                    <div className="mini-face mini-top"></div>
-                    <div className="mini-face mini-bottom"></div>
-                </div>
-            </div>
-        </div> 
-            {/* asiana animaion logo-principale eto raha mety xD */}
+        <Cubeloader/>
+        
 
         <svg className="fondOpening" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1442.5 1024"><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><g id="Calque_2-2" data-name="Calque 2"><g id="Calque_1-2-2" data-name="Calque 1-2"><rect id="l1" x="3.29" width="719.71" height="1024" fill="#217aac"/><rect id="r1" x="722.5" width="720" height="1024" fill="#dbdbdb"/><rect id="r0" x="722.5" width="720" height="1024" fill="#090f22"/><rect id="l0" width="723" height="1024" fill="#090f22"/></g></g></g></g></svg>
-
         </div>
+       
+
+        
         </>
     )
 }

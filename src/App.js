@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from 'react';
 import './App.css';
+import './style/reveal.css'
 import Footer from './components/Footer';
 import Loading from './components/Loading';
 import LoadingScreen from './components/LoadingScreen';

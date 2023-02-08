@@ -1,0 +1,30 @@
+
+.r-bot-top {
+    transform: translateY(25px);
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.r-left-right{
+    transform: translateX(-10vw);
+    opacity: 0;
+    transition: 0.5s ease-out;
+}
+
+.r-right-left{
+    transform: translateX(10vw);
+    opacity: 0;
+    transition: 0.5s ease-out;
+}
+
+.r-active {
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+}
+
+.d-0{
+    transition-delay:0.4s ;
+}
+.d-1{
+    transition-delay:1.6s ;
+}

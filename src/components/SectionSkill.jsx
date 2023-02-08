@@ -4,12 +4,9 @@ import Lista from './mini-components/Liste'
 const SectionSkill = (props) => {
     let skill={
         dev: [
-            'HTML/CSS',
+            'HTML/CSS',    
             'Javascript',
-            'ExpressJS',
             'React'
-            
-
         ],
         des: [
             'illustrator',
