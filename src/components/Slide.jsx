@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Cubeloader from "./mini-components/CubeLoader";
 
 
@@ -8,7 +8,6 @@ const Slide = (props) =>{
           const content = props.multimed.filter(multi => multi.id === props.value);
 
           const [test , setTest]=useState(content[0].src)
-          console.log(test);
 
           const [nb_active , setNb_active] = useState(0)
 
@@ -70,8 +69,7 @@ const Slide = (props) =>{
               }
             });
 
-            console.log(content);
-            console.log( a );
+            
           }
             
           }, [loaded]);

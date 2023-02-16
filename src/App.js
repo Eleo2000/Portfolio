@@ -1,10 +1,9 @@
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import './style/reveal.css'
 import Footer from './components/Footer';
 import Loading from './components/Loading';
-import LoadingScreen from './components/LoadingScreen';
 import SectionAbout from './components/SectionAbout';
 import SectionProject from './components/SectionProject.jsx';
 import SectionSkill from './components/SectionSkill';
@@ -47,7 +46,7 @@ function App() {
  
   function attrib_classes(a){
     setTab(()=>a)
-    console.log(tab);
+    
   }
 
   function show_project(id) {

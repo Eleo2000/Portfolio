@@ -7,10 +7,6 @@ const Footer = () => {
         window.open(
             "https://web.facebook.com/Eleo.Antroine", "_blank");
     }
-    function to_in(){
-        window.open(
-            "https://www.facebook.com", "_blank");
-    }
     function to_git(){
         window.open(
             "https://github.com/EvoluTech", "_blank");
