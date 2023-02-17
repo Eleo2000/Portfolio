@@ -22,9 +22,12 @@
     opacity: 1;
 }
 
+.d--1{
+    transition-delay:1s ;
+}
 .d-0{
-    transition-delay:0.4s ;
+    transition-delay:1.4s ;
 }
 .d-1{
-    transition-delay:1.6s ;
+    transition-delay:2.6s ;
 }

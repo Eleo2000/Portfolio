@@ -55,7 +55,7 @@ const Home = (props) => {
         <div className="Home">
             <div style={{
                 backgroundImage : 'url(assets/Leo.png)'
-            }} className="photo-Home r-bot-top"></div>
+            }} className="photo-Home r-bot-top d--1"></div>
             <div className="content-home">
                 <div className="intro r-left-right d-0">{content.intro}</div>
                 <div className="info-spec r-right-left d-1">{content.info}</div>
